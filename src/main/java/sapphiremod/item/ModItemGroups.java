@@ -12,6 +12,7 @@ import sapphiremod.SapphireMod;
 import sapphiremod.block.ModBlocks;
 
 public class ModItemGroups {
+    @SuppressWarnings("unused")
     public static final ItemGroup SAPPHIRE_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(SapphireMod.MOD_ID, "sapphire"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.sapphire"))
