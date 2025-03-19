@@ -3,20 +3,23 @@
 	"id": "sapphire-mod",
 	"version": "${version}",
 	"name": "Sapphire Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A simple mod adding sapphires to minecraft.",
 	"authors": [
-		"Me!"
+		"Samuel Kuhn"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/sapphire-mod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"sapphiremod.SapphireMod"
+		],
+		"client": [
+			"sapphiremod.SapphireModClient"
 		],
 		"fabric-datagen": [
 			"sapphiremod.SapphireModDataGenerator"
