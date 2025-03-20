@@ -1,3 +1,2 @@
 create textures
 add ore generation
-add loot tables

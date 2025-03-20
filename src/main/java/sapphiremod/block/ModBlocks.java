@@ -1,30 +1,25 @@
 package sapphiremod.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.registry.RegistryKey;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import sapphiremod.SapphireMod;
+import sapphiremod.util.ItemGroupHelper;
+
 
 public class ModBlocks {
     public static void init() {
         SapphireMod.logInfo("Registering ModBlocks for: " + SapphireMod.MOD_ID);
-        registerBlockInItemGroup(ItemGroups.BUILDING_BLOCKS, SAPPHIRE_BLOCK);
-        registerBlockInItemGroup(ItemGroups.NATURAL, DEEPSLATE_SAPPHIRE_ORE);
-    }
-
-    private static void registerBlockInItemGroup(RegistryKey<ItemGroup> group, Block block) {
-        ItemGroupEvents.modifyEntriesEvent(group).register(e -> e.add(block));
+        ItemGroupHelper.registerItemInGroup(ItemGroups.BUILDING_BLOCKS, SAPPHIRE_BLOCK);
+        ItemGroupHelper.registerItemInGroup(ItemGroups.NATURAL, DEEPSLATE_SAPPHIRE_ORE);
     }
 
     private static Item registerBlockItem(String name, Block block) {
