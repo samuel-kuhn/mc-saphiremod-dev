@@ -6,6 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import sapphiremod.block.ModBlocks;
 import sapphiremod.item.ModItemGroups;
+import sapphiremod.item.ModItems;
 
 public class SapphireMod implements ModInitializer {
 	public static final String MOD_ID = "sapphiremod";
@@ -21,5 +22,6 @@ public class SapphireMod implements ModInitializer {
 
 		ModBlocks.init();
 		ModItemGroups.init();
+		ModItems.init();
 	}
 }

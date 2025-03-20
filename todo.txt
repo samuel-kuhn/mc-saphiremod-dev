@@ -1,5 +1,3 @@
-add sapphire block
-add sapphire ore(s)
 add sapphire item
 add sapphire tools
 create textures
