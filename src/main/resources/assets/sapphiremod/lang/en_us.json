@@ -4,6 +4,10 @@
   "block.sapphiremod.sapphire_block": "Block of Sapphire",
   "block.sapphiremod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
 
-
-  "item.sapphiremod.sapphire": "Sapphire"
+  "item.sapphiremod.sapphire": "Sapphire",
+  "item.sapphiremod.sapphire_sword": "Sapphire Sword",
+  "item.sapphiremod.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.sapphiremod.sapphire_shovel": "Sapphire Shovel",
+  "item.sapphiremod.sapphire_axe": "Sapphire Axe",
+  "item.sapphiremod.sapphire_hoe": "Sapphire Hoe"
 }

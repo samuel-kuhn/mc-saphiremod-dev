@@ -21,7 +21,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
 
                         entries.add(ModItems.SAPPHIRE);
-
+                        entries.add(ModItems.SAPPHIRE_AXE);
+                        entries.add(ModItems.SAPPHIRE_HOE);
+                        entries.add(ModItems.SAPPHIRE_PICKAXE);
+                        entries.add(ModItems.SAPPHIRE_SHOVEL);
+                        entries.add(ModItems.SAPPHIRE_SWORD);
                     }).build());
     public static void init() {
         SapphireMod.LOGGER.info("Registering Item Groups for " + SapphireMod.MOD_ID);
