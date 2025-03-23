@@ -1,2 +1,2 @@
-create textures
-add ore generation
+fix ore generation
+fix tool in hand (3rd person view)
