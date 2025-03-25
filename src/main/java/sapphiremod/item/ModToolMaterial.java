@@ -1,12 +1,13 @@
 package sapphiremod.item;
 
+import net.fabricmc.yarn.constants.MiningLevels;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    SAPPHIRE(5, 650, 9.0f, 0.0f, 26, () -> Ingredient.ofItems(ModItems.SAPPHIRE));
+    SAPPHIRE(MiningLevels.DIAMOND, 2200, 9.0f, 4.0f, 15, () -> Ingredient.ofItems(ModItems.SAPPHIRE));
 
     private final int miningLevel;
     private final int itemDurability;

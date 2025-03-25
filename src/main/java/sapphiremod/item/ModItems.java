@@ -14,19 +14,19 @@ public class ModItems {
     public static final Item SAPPHIRE = registerItem("sapphire", new Item(new FabricItemSettings()));
 
     public static final Item SAPPHIRE_SWORD = registerItem("sapphire_sword",
-            new SwordItem(ModToolMaterial.SAPPHIRE, 10, 2f, new FabricItemSettings().maxCount(1)));
+            new SwordItem(ModToolMaterial.SAPPHIRE, 3, -2.8f, new FabricItemSettings()));
 
     public static final Item SAPPHIRE_PICKAXE = registerItem("sapphire_pickaxe",
-            new PickaxeItem(ModToolMaterial.SAPPHIRE, 2, 2f, new FabricItemSettings().maxCount(1)));
+            new PickaxeItem(ModToolMaterial.SAPPHIRE, 1, -3f, new FabricItemSettings()));
 
     public static final Item SAPPHIRE_SHOVEL = registerItem("sapphire_shovel",
-            new ShovelItem(ModToolMaterial.SAPPHIRE, 2, 2f, new FabricItemSettings().maxCount(1)));
+            new ShovelItem(ModToolMaterial.SAPPHIRE, 1, -3f, new FabricItemSettings()));
 
     public static final Item SAPPHIRE_AXE = registerItem("sapphire_axe",
-            new AxeItem(ModToolMaterial.SAPPHIRE, 14, 1f, new FabricItemSettings().maxCount(1)));
+            new AxeItem(ModToolMaterial.SAPPHIRE, 5, -3.2f, new FabricItemSettings()));
 
     public static final Item SAPPHIRE_HOE = registerItem("sapphire_hoe",
-            new HoeItem(ModToolMaterial.SAPPHIRE, 2, 2f, new FabricItemSettings().maxCount(1)));
+            new HoeItem(ModToolMaterial.SAPPHIRE, -4, 0f, new FabricItemSettings()));
 
     static List<Item> sapphireTools = List.of(SAPPHIRE_HOE, SAPPHIRE_SHOVEL, SAPPHIRE_AXE, SAPPHIRE_PICKAXE);
 
