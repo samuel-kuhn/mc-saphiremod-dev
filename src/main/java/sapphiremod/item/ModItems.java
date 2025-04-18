@@ -27,13 +27,13 @@ public class ModItems {
 
     // Armor
     public static final Item SAPPHIRE_HELMET = registerItem("sapphire_helmet",
-            new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item SAPPHIRE_CHESTPLATE = registerItem("sapphire_chestplate",
-            new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item SAPPHIRE_LEGGINGS = registerItem("sapphire_leggings",
-            new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item SAPPHIRE_BOOTS = registerItem("sapphire_boots",
-            new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     static List<Item> sapphireTools = List.of(SAPPHIRE_HOE, SAPPHIRE_SHOVEL, SAPPHIRE_AXE, SAPPHIRE_PICKAXE);
     static List<Item> sapphireCombat = List.of(SAPPHIRE_HELMET, SAPPHIRE_CHESTPLATE, SAPPHIRE_LEGGINGS, SAPPHIRE_BOOTS, SAPPHIRE_SWORD, SAPPHIRE_AXE);
