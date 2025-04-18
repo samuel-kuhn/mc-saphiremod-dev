@@ -9,5 +9,10 @@
   "item.sapphiremod.sapphire_pickaxe": "Sapphire Pickaxe",
   "item.sapphiremod.sapphire_shovel": "Sapphire Shovel",
   "item.sapphiremod.sapphire_axe": "Sapphire Axe",
-  "item.sapphiremod.sapphire_hoe": "Sapphire Hoe"
+  "item.sapphiremod.sapphire_hoe": "Sapphire Hoe",
+
+  "item.sapphiremod.sapphire_helmet": "Sapphire Helmet",
+  "item.sapphiremod.sapphire_chestplate": "Sapphire Chestplate",
+  "item.sapphiremod.sapphire_leggings": "Sapphire Leggings",
+  "item.sapphiremod.sapphire_boots": "Sapphire Boots"
 }

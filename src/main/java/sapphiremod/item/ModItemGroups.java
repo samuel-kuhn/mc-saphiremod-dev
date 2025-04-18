@@ -16,7 +16,6 @@ public class ModItemGroups {
             new Identifier(SapphireMod.MOD_ID, "sapphire"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.sapphire"))
                     .icon(() -> new ItemStack(ModItems.SAPPHIRE)).entries((displayContext, entries) -> {
-
                         entries.add(ModBlocks.SAPPHIRE_BLOCK);
                         entries.add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
 
@@ -26,6 +25,11 @@ public class ModItemGroups {
                         entries.add(ModItems.SAPPHIRE_PICKAXE);
                         entries.add(ModItems.SAPPHIRE_SHOVEL);
                         entries.add(ModItems.SAPPHIRE_SWORD);
+
+                        entries.add(ModItems.SAPPHIRE_HELMET);
+                        entries.add(ModItems.SAPPHIRE_CHESTPLATE);
+                        entries.add(ModItems.SAPPHIRE_LEGGINGS);
+                        entries.add(ModItems.SAPPHIRE_BOOTS);
                     }).build());
     public static void init() {
         SapphireMod.LOGGER.info("Registering Item Groups for " + SapphireMod.MOD_ID);

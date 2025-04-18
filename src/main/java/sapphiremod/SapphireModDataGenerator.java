@@ -8,6 +8,7 @@ import sapphiremod.datagen.*;
 import sapphiremod.world.ModConfiguredFeatures;
 import sapphiremod.world.ModPlacedFeatures;
 
+@SuppressWarnings("unused")
 public class SapphireModDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
@@ -18,6 +19,7 @@ public class SapphireModDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModRecipeProvider::new);
 		pack.addProvider(ModWorldGenerator::new);
 		pack.addProvider(ModBlockTagProvider::new);
+		pack.addProvider(ModItemTagProvider::new);
 	}
 
 	@Override

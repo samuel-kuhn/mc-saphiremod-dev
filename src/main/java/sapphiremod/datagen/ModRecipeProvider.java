@@ -70,5 +70,35 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('O', Items.STICK)
                 .criterion(hasItem(ModItems.SAPPHIRE), conditionsFromItem(ModItems.SAPPHIRE))
                 .offerTo(consumer, new Identifier(getRecipeName(ModItems.SAPPHIRE_HOE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SAPPHIRE_HELMET, 1)
+                .pattern("XXX")
+                .pattern("X X")
+                .input('X', ModItems.SAPPHIRE)
+                .criterion(hasItem(ModItems.SAPPHIRE), conditionsFromItem(ModItems.SAPPHIRE))
+                .offerTo(consumer, new Identifier(getRecipeName(ModItems.SAPPHIRE_HELMET)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SAPPHIRE_CHESTPLATE, 1)
+                .pattern("X X")
+                .pattern("XXX")
+                .pattern("XXX")
+                .input('X', ModItems.SAPPHIRE)
+                .criterion(hasItem(ModItems.SAPPHIRE), conditionsFromItem(ModItems.SAPPHIRE))
+                .offerTo(consumer, new Identifier(getRecipeName(ModItems.SAPPHIRE_CHESTPLATE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SAPPHIRE_LEGGINGS, 1)
+                .pattern("XXX")
+                .pattern("X X")
+                .pattern("X X")
+                .input('X', ModItems.SAPPHIRE)
+                .criterion(hasItem(ModItems.SAPPHIRE), conditionsFromItem(ModItems.SAPPHIRE))
+                .offerTo(consumer, new Identifier(getRecipeName(ModItems.SAPPHIRE_LEGGINGS)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SAPPHIRE_BOOTS, 1)
+                .pattern("X X")
+                .pattern("X X")
+                .input('X', ModItems.SAPPHIRE)
+                .criterion(hasItem(ModItems.SAPPHIRE), conditionsFromItem(ModItems.SAPPHIRE))
+                .offerTo(consumer, new Identifier(getRecipeName(ModItems.SAPPHIRE_BOOTS)));
     }
 }
